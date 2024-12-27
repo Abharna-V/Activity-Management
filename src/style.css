@@ -1,0 +1,171 @@
+.container {
+border: solid black 40px;
+padding: 50px;
+background-color: rgb(222, 233, 237);
+}
+  
+.login_form {
+    padding: 20px;
+    border-radius: 5px;
+}
+
+input {
+    padding: 5px;
+    margin-bottom: 10px;
+    background-color: transparent;
+}
+  
+button {
+    background-color: violet;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+  
+a {
+    text-decoration: none;
+}
+
+.column{
+    display: flex;
+}
+.grow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .Chennai, .December, .Built {
+    background-color: transparent; 
+    border-radius: 10px;
+    color: black;
+    text-align: center;
+    padding: 15px;
+    flex-shrink: 0; 
+    width: 30%;
+    height: 150px; 
+    margin: 10px; 
+  }
+  
+  .Chennai {
+    background-color: blue;
+  }
+  
+  .December {
+    background-color: coral;
+  }
+  
+  .Built {
+    background-color: rgb(255, 187, 0);
+    margin-right: 65px;
+  }
+.li{
+    padding: 1px;
+    display: flex;
+}
+.delete button{
+    color: red;
+    background-color: transparent;
+}
+.add button{
+    color: white;
+    background-color: black;
+    margin: 5px;
+    padding: 0.5rem 1rem;
+    margin-bottom: 15px;
+}
+.add{
+    display:flex;
+}
+.power{
+    display: flex;
+}
+#yellow{
+    color: black;
+    background-color: rgb(255, 140, 0);
+}
+.nxt{
+    margin-right: 10px;
+    flex: 1;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.delete{
+    background-color: rgb(150, 144, 144);
+    color: black;
+    border-radius: 10px;
+    height: auto;
+    width: 80%;
+    padding: 10px;
+    margin-left: 10px;
+}
+
+.grow{
+    text-align: center;
+    margin: 0px 50px 0px 50px;
+    display: flex;
+    width: 100%;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    padding: 10px;
+}
+.delete li {
+    display: flex;
+    justify-content: space-between;
+    padding: 1px;
+}
+.hellopage button{
+    display: flex;
+}
+#btn{
+    background-color: olive;
+    color: white;
+    padding: 10px;
+}
+
+@media (max-width: 800px) {
+    .Chennai,
+    .December,
+    .Built {
+      flex-basis: 30%; 
+    }
+  
+    .grow {
+      margin: 0px 20px 0px 20px; 
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .Chennai,
+    .December,
+    .Built {
+      flex-basis: 100%; 
+      margin-bottom: 10px; 
+      margin-right: 75px;
+      width: 80%;
+    }
+  
+    .grow {
+      flex-direction: column; 
+      align-items: center; 
+      display: flex;
+    }
+    .power{
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+    }
+    .nxt{
+      margin-left: 20px;
+    }
+    .container {
+      border: solid black 40px;
+      padding: 50px;
+      background-color: rgb(222, 233, 237);
+      }
+
+  }
